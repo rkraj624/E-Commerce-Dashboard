@@ -7,7 +7,7 @@ import PrivateComponent from './components/PrivateComponent'
 import Login from './components/Login'
 import AddProduct from './components/AddProduct';
 import ProductList from './components/ProductList';
-import UpdateProduct from './components/UpdateComponent';
+import UpdateProduct from './components/UpdateProduct';
 function App() {
   return (
     <div className="App">

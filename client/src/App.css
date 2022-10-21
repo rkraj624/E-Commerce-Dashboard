@@ -2,7 +2,7 @@
 .nav-ul {
   padding: 5px;
   margin: 0px;
-  background-color: skyblue;
+  background-color: grey;
 }
 .nav-ul li{
   display:  inline-block;
@@ -16,7 +16,7 @@
 .footer {
   position: absolute;
   bottom: 0;
-  background-color: skyblue;
+  background-color: grey;
   width: 100%;
   text-align: center;
 }
@@ -68,7 +68,7 @@
   margin: 20px;
   width: 150px;
   padding: 10px;
-  background-color: skyblue;
+  background-color: grey;
   border: solid 1px;
   cursor: pointer;
 }
@@ -100,9 +100,17 @@
   display: inline-block;
   width: 150px;
   border: 1px solid skyblue;
+  text-decoration: none;
   padding: 5px;
 }
-
+.product-list button{
+  margin-left: 4px;
+}
+.styleLink{
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
 .product-list ul{
   margin: 0;
 }
